@@ -1,0 +1,32 @@
+.pheader{
+    background-color: #2E3D36;
+    color: #EAE7DC;
+}
+
+.pnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pnav-links{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.pheader a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.pheader a:hover{
+    color: #E8A87C; 
+    text-decoration: none;
+}
+
+.plogo{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}

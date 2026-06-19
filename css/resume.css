@@ -1,0 +1,66 @@
+.rnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rnav-links{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.rheader{
+    background-color: #2E3D36;
+    color:#EAE7DC;
+}
+
+.rheader a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.rheader a:hover{
+    color: #E8A87C; 
+    text-decoration: none;
+}
+
+.rlogo{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.resume-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.resume-card{
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    background-color: #f9f9f9 ;
+    border-radius: 70px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.resume-buttons a{
+    color: #333333;
+    text-decoration: none;
+    gap: 20px;
+    padding: 90px;
+}
+
+.resume-buttons a:hover{
+     color: #4CAF50; 
+    text-decoration: none;
+}
+
+.preview-btn, .download-btn{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}

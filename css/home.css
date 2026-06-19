@@ -1,0 +1,46 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display:flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.header{
+    background-color: #2E3D36;
+    color:#EAE7DC;
+}
+
+.header a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header a:hover {
+  color: #E8A87C; 
+  text-decoration: none;
+}
+
+.body{
+    background-color: #EAE7DC;
+    color: #1A221E;
+}
+
+.prof_pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+
